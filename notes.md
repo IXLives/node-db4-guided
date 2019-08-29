@@ -12,10 +12,6 @@ Animals (many) <==> Species (one)
 Animals (many) <==> Zoos (many)
 
 ### Table Details
-animals 
-    - animal_id
-    - name
-    - species_id
 zoos 
     - zoo_id
     - zoo_name
@@ -23,6 +19,12 @@ zoos
 species 
     - species_id 
     - species_name
+animals 
+    - animal_id
+    - name
+    - species_id
 zoo_animals
     - zoo_id
     - animal_id
+
+

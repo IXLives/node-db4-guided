@@ -68,4 +68,8 @@ server.delete('/api/species/:id', (req, res) => {
   });
 });
 
+// server.get('api/zoos/:zoo_id/species_count/:species_id', (req, res) => {
+//   // JOIN zoo_animals WITH animals WITH species
+// })
+
 module.exports = server;
